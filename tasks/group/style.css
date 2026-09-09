@@ -1,0 +1,126 @@
+/* Toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Khung chính */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+/* Tiêu đề */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.intro {
+    text-align: center;
+    color: #666;
+}
+
+/* Danh sách */
+ul {
+    background-color: #eee;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+li {
+    margin: 8px;
+}
+
+/* Các thành viên */
+.members {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Thẻ thành viên */
+.member {
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+}
+
+/* Ảnh đại diện */
+.member img {
+    width: 120px;
+    height: 120px;
+
+    /* Làm ảnh thành hình tròn */
+    border-radius: 50%;
+
+    object-fit: cover;
+}
+
+/* Tên */
+.member h3 {
+    color: #333;
+}
+
+/* Link */
+.member a {
+    color: blue;
+    text-decoration: none;
+}
+
+/* Bảng */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 12px;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Form */
+form {
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+/* Nút gửi */
+input[type="submit"] {
+    margin-top: 15px;
+    padding: 10px 25px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,76 @@
+/* Định dạng tổng thể trang web */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Phần Header */
+header {
+    text-align: center;
+    background-color: #0056b3;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Ảnh đại diện */
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+    margin-top: 10px;
+}
+
+/* Phần nội dung chính */
+main {
+    background: #fff;
+    padding: 25px;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiêu đề phần nội dung */
+h2 {
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+/* Danh sách */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Bảng thông tin cá nhân */
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.info-table td {
+    padding: 8px 0;
+}
+
+.info-table td:first-child {
+    font-weight: bold;
+    width: 30%;
+}
+
+/* Đường dẫn liên kết */
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
