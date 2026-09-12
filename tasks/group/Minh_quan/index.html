@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Giới Thiệu Cá Nhân</title>
+    <style>
+        /* Reset cơ bản */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        /* Container chính */
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        /* Header / Banner cá nhân */
+        .header {
+            background: linear-gradient(135deg, #007bff, #00d2ff);
+            color: white;
+            text-align: center;
+            padding: 40px 20px 20px;
+        }
+
+        .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-bottom: 15px;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+
+        .header p {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        /* Phần nội dung thông tin */
+        .content {
+            padding: 30px;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            font-size: 20px;
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        /* Bảng thông tin cơ bản */
+        .info-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .info-table td {
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .info-table td.label {
+            font-weight: bold;
+            width: 35%;
+            color: #555;
+        }
+
+        /* Danh sách sở thích & sở trường */
+        .list-style {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        .list-style li {
+            margin-bottom: 8px;
+        }
+
+        /* Thẻ Kỹ năng / Tag */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill-tag {
+            background-color: #e9ecef;
+            color: #495057;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        /* Mạng xã hội */
+        .social-links a {
+            display: inline-block;
+            margin-right: 15px;
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #f8f9fa;
+            font-size: 14px;
+            color: #777;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Header với ảnh đại diện và tên -->
+        <div class="header">
+            <!-- Thay link ảnh đại diện của bạn vào src dưới đây -->
+            <img src="anh1.jpeg" alt="Ảnh đại diện" class="avatar">
+            <h1></h1>
+            <p>Sinh viên Ngành THƯƠNG MẠI ĐIỆN TỬ</p>
+        </div>
+
+        <!-- Nội dung chi tiết -->
+        <div class="content">
+
+            <!-- Thông tin cá nhân cơ bản -->
+            <div class="section">
+                <h2 class="section-title">Thông Tin Cơ Bản</h2>
+                <table class="info-table">
+                    <tr>
+                        <td class="label">Họ và tên:</td>
+                        <td>NGUYỄN MINH QUÂN</td>
+                    </tr>
+                    <tr>
+                        <td class="label">Mã sinh viên:</td>
+                        <td>24103774</td>
+                    </tr>
+                    <tr>
+                        <td class="label">Ngày sinh:</td>
+                        <td>11/4/2006</td>
+                    </tr>
+                    <tr>
+                        <td class="label">Giới tính:</td>
+                        <td>Nam</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Sở thích -->
+            <div class="section">
+                <h2 class="section-title">Sở Thích</h2>
+                <ul class="list-style">
+                    <li>Chơi các thể thao (Cầu lông, Bóng đá)</li>
+                    <li>Đọc sách công nghệ và tiểu thuyết</li>
+                    <li>Lập trình và tìm hiểu công nghệ mới</li>
+                    <li>Nghe nhạc và du lịch trải nghiệm</li>
+                </ul>
+            </div>
+
+            <!-- Sở trường -->
+            <div class="section">
+                <h2 class="section-title">Sở Trường</h2>
+                <ul class="list-style">
+                    <li>Tư duy logic và giải quyết vấn đề tốt</li>
+                    <li>Làm việc nhóm và giao tiếp hiệu quả</li>
+                    <li>Khả năng tự học và thích nghi nhanh với công nghệ mới</li>
+                </ul>
+            </div>
+
+            <!-- Bổ sung: Mục tiêu & Kỹ năng (Khuyến khích) -->
+            <div class="section">
+                <h2 class="section-title">Kỹ Năng & Mục Tiêu</h2>
+                <p><strong>Mục tiêu:</strong> Trở thành một Full-stack Developer chuyên nghiệp trong 2 năm tới.</p>
+                <br>
+                <p style="margin-bottom: 8px;"><strong>Kỹ năng chính:</strong></p>
+                <div class="skills">
+                    <span class="skill-tag">HTML5 / CSS3</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Git / GitHub</span>
+                    <span class="skill-tag">Tiếng Anh Giao Tiếp</span>
+                </div>
+            </div>
+
+            <!-- Bổ sung: Mạng xã hội -->
+            <div class="section">
+                <h2 class="section-title">Liên Hệ & Mạng Xã Hội</h2>
+                <div class="social-links">
+                    <a href="https://facebook.com" target="_blank">Facebook</a>
+                    <a href="https://github.com" target="_blank">GitHub</a>
+                    <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>© 2026 - Trang cá nhân của Nguyễn Minh Quân</p>
+        </div>
+    </div>
+
+</body>
